@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T11:00:41.354Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="fO-XKeEr_XmcGR7Iw1gM" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T15:30:49.305Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="KX_g6YPB6I6JylB-S6hg" version="22.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="1149" dy="518" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1851" dy="834" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -25,7 +25,7 @@
         <mxCell id="FAzehwiRH1MLIlhiyja--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--7" target="FAzehwiRH1MLIlhiyja--10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="FAzehwiRH1MLIlhiyja--7" value="สร้าง function wake-up" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FAzehwiRH1MLIlhiyja--7" value="สร้าง function&amp;nbsp;wakeup_reason" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="315" y="250" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--10" target="FAzehwiRH1MLIlhiyja--21">
@@ -131,8 +131,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="FAzehwiRH1MLIlhiyja--49" value="MQTT ยังไม่&lt;br&gt;เชื่อมต่อ ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FAzehwiRH1MLIlhiyja--49" value="ยังไม่&lt;br&gt;เชื่อมต่อ MQTT&lt;br&gt;&amp;nbsp;?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="520" y="840" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--75" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--52" target="FAzehwiRH1MLIlhiyja--74">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--52" value="mqtt.loop();" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="655" y="920" width="170" height="50" as="geometry" />
@@ -171,7 +174,7 @@
         <mxCell id="FAzehwiRH1MLIlhiyja--59" value="connected" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="200" y="1020" width="170" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="FAzehwiRH1MLIlhiyja--61" value="failed" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="FAzehwiRH1MLIlhiyja--61" value="failed&lt;br&gt;รอ 5 วิ" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="430" y="1020" width="170" height="50" as="geometry" />
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--64" target="FAzehwiRH1MLIlhiyja--69">
@@ -181,8 +184,8 @@
               <mxPoint x="400" y="1130" />
               <mxPoint x="190" y="1130" />
               <mxPoint x="190" y="840" />
-              <mxPoint x="380" y="840" />
-              <mxPoint x="380" y="810" />
+              <mxPoint x="520" y="840" />
+              <mxPoint x="520" y="810" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -211,6 +214,48 @@
               <mxPoint x="515" y="1110" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--80" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--74" target="FAzehwiRH1MLIlhiyja--76">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--74" value="อ่านค่าจากอุปกรณ์ต่างๆ" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="655" y="1010" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--86" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--76" target="FAzehwiRH1MLIlhiyja--85">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--76" value="ส่งข้อมูลขึ้น ThingsBoard ด้วย mqtt.publish แบบ json" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="655" y="1090" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--77" target="FAzehwiRH1MLIlhiyja--82">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--77" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="670" y="1260" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--78" value="เรียกใช้ wakeup_reason" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="705" y="1260" width="70" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--81" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--82" target="FAzehwiRH1MLIlhiyja--83">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--82" value="กำหนดให้ esp32 ตื่นด้วยการนาฬิกา ใน 1 ชม ให้หลัง" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="460" y="1265" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--90" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--83" target="FAzehwiRH1MLIlhiyja--89">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--83" value="esp32 เข้าสู่ Deep sleep mode" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="243" y="1265" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--87" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--85" target="FAzehwiRH1MLIlhiyja--78">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--85" value="&amp;nbsp;++AngleC" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="655" y="1180" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--89" value="จบ" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="110" y="1270" width="100" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
