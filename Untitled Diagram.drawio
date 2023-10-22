@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T15:58:18.035Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="qX1kevcCwyE0adL3-ivt" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T16:00:51.429Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="TEXOqEDWFJ3mZP1E1ztF" version="22.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2221" dy="1001" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -84,11 +84,6 @@
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--13" value="หมดเวลา&lt;br&gt;เชื่อมต่อ ?&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="80" y="590" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="FAzehwiRH1MLIlhiyja--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--17">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="20" y="640" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--17" value="ESP.restart();" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="45" y="730" width="170" height="50" as="geometry" />
