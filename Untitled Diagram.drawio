@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-10-22T09:46:06.663Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="MZPYoPSOclKGhJM-Y9NP" version="22.0.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-22T10:07:52.492Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36 Edg/118.0.2088.61" etag="HWKiPo9wuxkfOICcDur5" version="22.0.6" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="704" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="808" dy="618" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -14,25 +14,96 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--1" value="เรียกใช้&amp;nbsp;library" style="shape=parallelogram;html=1;strokeWidth=2;perimeter=parallelogramPerimeter;whiteSpace=wrap;rounded=1;arcSize=12;size=0.23;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="350" y="120" width="100" height="60" as="geometry" />
+          <mxGeometry x="350" y="100" width="100" height="60" as="geometry" />
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--2" target="FAzehwiRH1MLIlhiyja--7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--2" value="กำหนดค่าตัวแปรต่างๆที่ต้องใช้" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="315" y="230" width="170" height="70" as="geometry" />
+          <mxGeometry x="315" y="190" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--7" target="FAzehwiRH1MLIlhiyja--10">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--7" value="สร้าง function wake-up" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="315" y="337" width="170" height="70" as="geometry" />
+          <mxGeometry x="315" y="300" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--10" target="FAzehwiRH1MLIlhiyja--21">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--10" value="เชื่อมต่อ wifi และ mqtt" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="315" y="450" width="170" height="70" as="geometry" />
+          <mxGeometry x="315" y="410" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--11" target="FAzehwiRH1MLIlhiyja--12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--27" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FAzehwiRH1MLIlhiyja--16">
+          <mxGeometry x="-0.6007" y="1" relative="1" as="geometry">
+            <mxPoint x="-24" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--11" target="FAzehwiRH1MLIlhiyja--30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--32" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FAzehwiRH1MLIlhiyja--31">
+          <mxGeometry x="-0.1362" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="FAzehwiRH1MLIlhiyja--11" value="ยังไม่ได้&lt;br&gt;เชื่อมwifi ?" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="350" y="570" width="100" height="100" as="geometry" />
+          <mxGeometry x="350" y="550" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="FAzehwiRH1MLIlhiyja--12" value="พิมพ์ &quot;.&quot;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="160" y="720" width="170" height="70" as="geometry" />
+        <mxCell id="FAzehwiRH1MLIlhiyja--19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--12" target="FAzehwiRH1MLIlhiyja--13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--12" value="พิมพ์ &quot;.&quot;&lt;br&gt;timeout_counter++" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="145" y="660" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--13" target="FAzehwiRH1MLIlhiyja--17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--24" value="T" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FAzehwiRH1MLIlhiyja--18">
+          <mxGeometry x="-0.3926" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--13" target="FAzehwiRH1MLIlhiyja--21">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="320" y="540" as="targetPoint" />
+            <mxPoint x="200" y="875" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="120" y="810" />
+              <mxPoint x="120" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--25" value="F" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="FAzehwiRH1MLIlhiyja--20">
+          <mxGeometry x="-0.8987" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--13" value="หมดเวลา&lt;br&gt;เชื่อมต่อ ?&amp;nbsp;" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="760" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--17">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--17" value="ESP.restart();" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="145" y="910" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="FAzehwiRH1MLIlhiyja--21" target="FAzehwiRH1MLIlhiyja--11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--21" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.flowchart.on-page_reference;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="510" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--30" value="กำหนด IP และ PORT ของ MQTT" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="485" y="660" width="170" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="FAzehwiRH1MLIlhiyja--34" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=process;whiteSpace=wrap;rounded=1;size=0.14;arcSize=6;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="760" width="100" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
